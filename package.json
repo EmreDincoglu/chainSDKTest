@@ -1,0 +1,15 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Emre Dincoglu <Dincoglue@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc index.ts --outdir dist && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@arbitrum/chain-sdk": "^0.24.2",
+    "typescript": "^5.9.3",
+    "viem": "^1.20.0"
+  }
+}
